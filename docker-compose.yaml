@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  xian:
+    build:
+      context: app/src/gov_xian/xian
+    volumes:
+      - ./app/src/gov_xian:/usr/src/app
+    command: python playwright-test.py
+
+networks:
+  elastic:
+    external: true
