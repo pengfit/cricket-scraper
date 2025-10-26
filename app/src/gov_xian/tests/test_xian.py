@@ -39,8 +39,7 @@ client = DifyAPIClient(base_url="http://localhost", api_key=API_KEY, logger=logg
 
 input_format = (''
                 '产品名称 -> "breed"'
-                '规格 -> "spec"'
-                '型号 -> "model"'
+                '规格/型号 -> "spec"'
                 '单位 -> "unit"'
                 '价格 -> "price"'
                 '日期 -> "date"'
@@ -93,8 +92,8 @@ def browser_pages(page,area,issue):
             break
         else:
             for obj in result:
-                values = f" ".join(obj[1:]);
-                values = f"{values} {issue['date']} {area['label']}";
+                values = f",".join(obj[1:]);
+                values = f"{values},{issue['date']},{area['label']}";
                 logger.info("✅ request page %s values %s",page_number,values)
                 resp = client.run_workflow(values = values,
                                            input_format = input_format,

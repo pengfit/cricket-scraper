@@ -135,3 +135,356 @@
 2025-10-26 20:21:35,394 [INFO] Response status: 200
 2025-10-26 20:21:35,394 [INFO] ✅ request page 5 values / 不锈钢板 δ0.5~2 SS304 t 15966 2025-06 阎良区
 2025-10-26 20:21:35,394 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:39,790 [INFO] Response status: 200
+2025-10-26 20:21:39,790 [INFO] ✅ request page 5 values / 不锈钢板 δ2.5~5 SS304 t 16062 2025-06 阎良区
+2025-10-26 20:21:39,790 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:44,230 [INFO] Response status: 200
+2025-10-26 20:21:44,231 [INFO] ✅ request page 5 values / 不锈钢板 δ6~10 SS304 t 16172 2025-06 阎良区
+2025-10-26 20:21:44,232 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:48,342 [INFO] Response status: 200
+2025-10-26 20:21:48,342 [INFO] ✅ request page 5 values / 不锈钢板 δ12~16 SS304 t 16195 2025-06 阎良区
+2025-10-26 20:21:48,342 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:52,417 [INFO] Response status: 200
+2025-10-26 20:21:52,417 [INFO] ✅ request page 5 values / 不锈钢板 δ18~25 SS304 t 16428 2025-06 阎良区
+2025-10-26 20:21:52,418 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:56,501 [INFO] Response status: 200
+2025-10-26 20:21:56,502 [INFO] ✅ request page 5 values / 彩涂钢板（各色） δ0.4 ㎡ 17 2025-06 阎良区
+2025-10-26 20:21:56,502 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:22:00,373 [INFO] Response status: 200
+2025-10-26 20:22:00,373 [INFO] ✅ request page 5 values / 彩涂钢板（各色） δ0.5 ㎡ 20 2025-06 阎良区
+2025-10-26 20:22:00,373 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:22:04,093 [INFO] Response status: 200
+2025-10-26 20:22:04,093 [INFO] ✅ request page 5 values / 彩涂钢板（各色） δ0.6 ㎡ 24 2025-06 阎良区
+2025-10-26 20:22:04,094 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:22:07,737 [INFO] Response status: 200
+2025-10-26 20:22:14,395 [INFO] [['51', '/', 'PE板', '厚度:10.5mm', '㎡', '109'], ['52', '/', 'PVC洁净板（基材）', '1200×2400×3mm', '张', '166'], ['53', '/', 'PVC洁净板（基材）', '1200×3000×3mm', '张', '202'], ['54', '/', '聚乙烯低发泡填缝板', '/', 'm3', '1479'], ['55', '/', '橡塑板材', '厚度:10~60mm', 'm3', '1532'], ['56', '/', '防火型无纺布', '140g/㎡', '㎡', '3.4'], ['57', '/', '透水土工布', '150g/㎡', '㎡', '2.33'], ['58', '/', '透水土工布', '200g/㎡', '㎡', '2.56'], ['59', '/', '防渗土工膜（两布一膜）', '土工布:150g/m2 土工膜:0.5mm', '㎡', '10'], ['60', '/', '防渗土工膜（两布一膜）', '土工布:200g/m2 土工膜:0.5mm', '㎡', '12']]
+2025-10-26 20:22:14,397 [INFO] ✅ request page 6 values / PE板 厚度:10.5mm ㎡ 109 2025-06 阎良区
+2025-10-26 20:22:14,397 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:22:18,407 [INFO] Response status: 200
+2025-10-26 20:22:18,407 [INFO] ✅ request page 6 values / PVC洁净板（基材） 1200×2400×3mm 张 166 2025-06 阎良区
+2025-10-26 20:22:18,407 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:22:22,523 [INFO] Response status: 200
+2025-10-26 20:22:22,523 [INFO] ✅ request page 6 values / PVC洁净板（基材） 1200×3000×3mm 张 202 2025-06 阎良区
+2025-10-26 20:22:22,524 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:22:26,520 [INFO] Response status: 200
+2025-10-26 20:22:26,521 [INFO] ✅ request page 6 values / 聚乙烯低发泡填缝板 / m3 1479 2025-06 阎良区
+2025-10-26 20:22:26,521 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:22:30,358 [INFO] Response status: 200
+2025-10-26 20:22:30,359 [INFO] ✅ request page 6 values / 橡塑板材 厚度:10~60mm m3 1532 2025-06 阎良区
+2025-10-26 20:22:30,359 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:22:34,430 [INFO] Response status: 200
+2025-10-26 20:22:34,430 [INFO] ✅ request page 6 values / 防火型无纺布 140g/㎡ ㎡ 3.4 2025-06 阎良区
+2025-10-26 20:22:34,430 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:22:38,472 [INFO] Response status: 200
+2025-10-26 20:22:38,472 [INFO] ✅ request page 6 values / 透水土工布 150g/㎡ ㎡ 2.33 2025-06 阎良区
+2025-10-26 20:22:38,472 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:24:57,277 [INFO] Testing module: gov_xian
+2025-10-26 20:24:57,277 [INFO] Module URL: https://zjj.xa.gov.cn/zxcx/gczj/indexHis.aspx?page=1&qdm=ZZXU
+2025-10-26 20:24:57,277 [INFO] Module URL validation passed ✅
+2025-10-26 20:25:00,526 [INFO] 县区: {'value': 'YLQU', 'label': '阎良区'} 日期: {'name': '2025年06月造价信息表', 'date': '2025-06'}
+2025-10-26 20:25:01,270 [INFO] [['1', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ6~8', 't', '3568'], ['2', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ10~12', 't', '3552'], ['3', '/', '热轧钢筋', 'Q235 Φ6~8', 't', '3588'], ['4', '/', '热轧钢筋', 'Q235 Φ10~12', 't', '3580'], ['5', '/', '热轧带肋钢筋', 'HRB400E Φ8~10', 't', '3533'], ['6', '/', '热轧带肋钢筋', 'HRB400E Φ12~14', 't', '3503'], ['7', '/', '热轧带肋钢筋', 'HRB400E Φ16~18', 't', '3356'], ['8', '/', '热轧带肋钢筋', 'HRB400E Φ20~25', 't', '3328'], ['9', '/', '热轧带肋钢筋', 'HRB400E Φ28~32', 't', '3409'], ['10', '/', '热轧带肋钢筋', 'HRB500E Φ8~10', 't', '3721']]
+2025-10-26 20:25:01,272 [INFO] ✅ request page 1 values / 热轧光圆钢筋（高线） HPB300 Φ6~8 t 3568 2025-06 阎良区
+2025-10-26 20:25:01,272 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:05,367 [INFO] Response status: 200
+2025-10-26 20:25:05,367 [INFO] ✅ request page 1 values / 热轧光圆钢筋（高线） HPB300 Φ10~12 t 3552 2025-06 阎良区
+2025-10-26 20:25:05,367 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:09,153 [INFO] Response status: 200
+2025-10-26 20:25:09,154 [INFO] ✅ request page 1 values / 热轧钢筋 Q235 Φ6~8 t 3588 2025-06 阎良区
+2025-10-26 20:25:09,154 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:13,034 [INFO] Response status: 200
+2025-10-26 20:25:13,034 [INFO] ✅ request page 1 values / 热轧钢筋 Q235 Φ10~12 t 3580 2025-06 阎良区
+2025-10-26 20:25:13,035 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:16,790 [INFO] Response status: 200
+2025-10-26 20:25:16,791 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB400E Φ8~10 t 3533 2025-06 阎良区
+2025-10-26 20:25:16,791 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:20,505 [INFO] Response status: 200
+2025-10-26 20:25:20,506 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB400E Φ12~14 t 3503 2025-06 阎良区
+2025-10-26 20:25:20,506 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:24,116 [INFO] Response status: 200
+2025-10-26 20:25:24,117 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB400E Φ16~18 t 3356 2025-06 阎良区
+2025-10-26 20:25:24,117 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:27,711 [INFO] Response status: 200
+2025-10-26 20:25:27,711 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB400E Φ20~25 t 3328 2025-06 阎良区
+2025-10-26 20:25:27,711 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:31,307 [INFO] Response status: 200
+2025-10-26 20:25:31,307 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB400E Φ28~32 t 3409 2025-06 阎良区
+2025-10-26 20:25:31,307 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:34,956 [INFO] Response status: 200
+2025-10-26 20:25:34,956 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB500E Φ8~10 t 3721 2025-06 阎良区
+2025-10-26 20:25:34,956 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:38,748 [INFO] Response status: 200
+2025-10-26 20:25:38,997 [INFO] [['11', '/', '热轧带肋钢筋', 'HRB500E Φ12~14', 't', '3672'], ['12', '/', '热轧带肋钢筋', 'HRB500E Φ16~18', 't', '3583'], ['13', '/', '热轧带肋钢筋', 'HRB500E Φ20~25', 't', '3555'], ['14', '/', '热轧带肋钢筋', 'HRB500E Φ28~32', 't', '3644'], ['15', '/', '预应力碳素钢丝', 'Φ3~6', 't', '5236'], ['16', '/', '预应力刻痕钢丝', 'Φ5~8', 't', '4766'], ['17', '/', '低碳冷拔钢丝', 'Φ3~6', 't', '4323'], ['18', '/', '钢绞线', '15.2mm', 't', '4567'], ['19', '/', '方钢', 'Q235', 't', '4273'], ['20', '/', '热轧扁钢', '30mm~100mm', 't', '3982']]
+2025-10-26 20:25:38,999 [INFO] ✅ request page 2 values / 热轧带肋钢筋 HRB500E Φ12~14 t 3672 2025-06 阎良区
+2025-10-26 20:25:38,999 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:42,738 [INFO] Response status: 200
+2025-10-26 20:25:42,738 [INFO] ✅ request page 2 values / 热轧带肋钢筋 HRB500E Φ16~18 t 3583 2025-06 阎良区
+2025-10-26 20:25:42,739 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:46,440 [INFO] Response status: 200
+2025-10-26 20:25:46,441 [INFO] ✅ request page 2 values / 热轧带肋钢筋 HRB500E Φ20~25 t 3555 2025-06 阎良区
+2025-10-26 20:25:46,441 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:50,060 [INFO] Response status: 200
+2025-10-26 20:25:50,060 [INFO] ✅ request page 2 values / 热轧带肋钢筋 HRB500E Φ28~32 t 3644 2025-06 阎良区
+2025-10-26 20:25:50,060 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:53,719 [INFO] Response status: 200
+2025-10-26 20:25:53,719 [INFO] ✅ request page 2 values / 预应力碳素钢丝 Φ3~6 t 5236 2025-06 阎良区
+2025-10-26 20:25:53,719 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:25:57,437 [INFO] Response status: 200
+2025-10-26 20:25:57,437 [INFO] ✅ request page 2 values / 预应力刻痕钢丝 Φ5~8 t 4766 2025-06 阎良区
+2025-10-26 20:25:57,437 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:01,199 [INFO] Response status: 200
+2025-10-26 20:26:01,199 [INFO] ✅ request page 2 values / 低碳冷拔钢丝 Φ3~6 t 4323 2025-06 阎良区
+2025-10-26 20:26:01,199 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:04,785 [INFO] Response status: 200
+2025-10-26 20:26:04,785 [INFO] ✅ request page 2 values / 钢绞线 15.2mm t 4567 2025-06 阎良区
+2025-10-26 20:26:04,785 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:08,584 [INFO] Response status: 200
+2025-10-26 20:26:08,584 [INFO] ✅ request page 2 values / 方钢 Q235 t 4273 2025-06 阎良区
+2025-10-26 20:26:08,585 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:11,953 [INFO] Response status: 200
+2025-10-26 20:26:11,954 [INFO] ✅ request page 2 values / 热轧扁钢 30mm~100mm t 3982 2025-06 阎良区
+2025-10-26 20:26:11,954 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:15,792 [INFO] Response status: 200
+2025-10-26 20:26:16,299 [INFO] [['21', '/', '热镀锌扁钢', '25mm~70mm', 't', '4595'], ['22', '/', '热轧工字钢', '10~40# Q235B', 't', '4095'], ['23', '/', '热轧槽钢', '8~12# Q235B', 't', '3792'], ['24', '/', '热轧槽钢', '14~20# Q235B', 't', '3819'], ['25', '/', '热轧槽钢', '22~36# Q235B', 't', '3857'], ['26', '/', '热镀锌槽钢', '8~10#', 't', '4648'], ['27', '/', '热轧等边角钢', '∠30×3mm~50×5mm Q235B', 't', '3867'], ['28', '/', '热轧等边角钢', '∠63×6mm~100×10mm Q235B', 't', '3864'], ['29', '/', '热轧不等边角钢', '∠30×20mm~63×40mm Q235B', 't', '3955'], ['30', '/', '热轧不等边角钢', '∠75×50mm~100×75mm Q235B', 't', '3968']]
+2025-10-26 20:26:16,300 [INFO] ✅ request page 3 values / 热镀锌扁钢 25mm~70mm t 4595 2025-06 阎良区
+2025-10-26 20:26:16,300 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:20,294 [INFO] Response status: 200
+2025-10-26 20:26:20,294 [INFO] ✅ request page 3 values / 热轧工字钢 10~40# Q235B t 4095 2025-06 阎良区
+2025-10-26 20:26:20,294 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:24,017 [INFO] Response status: 200
+2025-10-26 20:26:24,018 [INFO] ✅ request page 3 values / 热轧槽钢 8~12# Q235B t 3792 2025-06 阎良区
+2025-10-26 20:26:24,018 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:27,894 [INFO] Response status: 200
+2025-10-26 20:26:27,894 [INFO] ✅ request page 3 values / 热轧槽钢 14~20# Q235B t 3819 2025-06 阎良区
+2025-10-26 20:26:27,894 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:31,536 [INFO] Response status: 200
+2025-10-26 20:26:31,536 [INFO] ✅ request page 3 values / 热轧槽钢 22~36# Q235B t 3857 2025-06 阎良区
+2025-10-26 20:26:31,536 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:35,208 [INFO] Response status: 200
+2025-10-26 20:26:35,208 [INFO] ✅ request page 3 values / 热镀锌槽钢 8~10# t 4648 2025-06 阎良区
+2025-10-26 20:26:35,208 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:38,807 [INFO] Response status: 200
+2025-10-26 20:26:38,807 [INFO] ✅ request page 3 values / 热轧等边角钢 ∠30×3mm~50×5mm Q235B t 3867 2025-06 阎良区
+2025-10-26 20:26:38,807 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:42,808 [INFO] Response status: 200
+2025-10-26 20:26:42,808 [INFO] ✅ request page 3 values / 热轧等边角钢 ∠63×6mm~100×10mm Q235B t 3864 2025-06 阎良区
+2025-10-26 20:26:42,808 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:46,885 [INFO] Response status: 200
+2025-10-26 20:26:46,886 [INFO] ✅ request page 3 values / 热轧不等边角钢 ∠30×20mm~63×40mm Q235B t 3955 2025-06 阎良区
+2025-10-26 20:26:46,886 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:51,040 [INFO] Response status: 200
+2025-10-26 20:26:51,040 [INFO] ✅ request page 3 values / 热轧不等边角钢 ∠75×50mm~100×75mm Q235B t 3968 2025-06 阎良区
+2025-10-26 20:26:51,040 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:26:54,995 [INFO] Response status: 200
+2025-10-26 20:26:56,534 [INFO] [['31', '/', '热轧不等边角钢', '∠125×75mm以上 Q235B', 't', '3999'], ['32', '/', '热镀锌角钢', '∠30×3mm~50×5mm', 't', '4911'], ['33', '/', '热镀锌角钢', '∠63×6mm~100×10mm', 't', '4933'], ['34', '/', 'H型钢', 'H100~H250 Q235B', 't', '3614'], ['35', '/', 'H型钢', 'H300~H500 Q235B', 't', '3627'], ['36', '/', 'H型钢', 'H600以上 Q235B', 't', '3723'], ['37', '/', '热轧薄钢板', 'δ0.5~1.5 Q235B', 't', '3913'], ['38', '/', '热轧薄钢板', 'δ2~4 Q235B', 't', '3871'], ['39', '/', '热轧中厚钢板', 'δ5~20 Q235B', 't', '4168'], ['40', '/', '镀锌薄钢板', 'δ0.35~1.5', 't', '4887']]
+2025-10-26 20:26:56,535 [INFO] ✅ request page 4 values / 热轧不等边角钢 ∠125×75mm以上 Q235B t 3999 2025-06 阎良区
+2025-10-26 20:26:56,535 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:00,326 [INFO] Response status: 200
+2025-10-26 20:27:00,326 [INFO] ✅ request page 4 values / 热镀锌角钢 ∠30×3mm~50×5mm t 4911 2025-06 阎良区
+2025-10-26 20:27:00,327 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:04,051 [INFO] Response status: 200
+2025-10-26 20:27:04,052 [INFO] ✅ request page 4 values / 热镀锌角钢 ∠63×6mm~100×10mm t 4933 2025-06 阎良区
+2025-10-26 20:27:04,052 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:07,868 [INFO] Response status: 200
+2025-10-26 20:27:07,868 [INFO] ✅ request page 4 values / H型钢 H100~H250 Q235B t 3614 2025-06 阎良区
+2025-10-26 20:27:07,869 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:11,837 [INFO] Response status: 200
+2025-10-26 20:27:11,838 [INFO] ✅ request page 4 values / H型钢 H300~H500 Q235B t 3627 2025-06 阎良区
+2025-10-26 20:27:11,838 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:15,791 [INFO] Response status: 200
+2025-10-26 20:27:15,791 [INFO] ✅ request page 4 values / H型钢 H600以上 Q235B t 3723 2025-06 阎良区
+2025-10-26 20:27:15,791 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:19,357 [INFO] Response status: 200
+2025-10-26 20:27:19,357 [INFO] ✅ request page 4 values / 热轧薄钢板 δ0.5~1.5 Q235B t 3913 2025-06 阎良区
+2025-10-26 20:27:19,357 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:23,030 [INFO] Response status: 200
+2025-10-26 20:27:23,030 [INFO] ✅ request page 4 values / 热轧薄钢板 δ2~4 Q235B t 3871 2025-06 阎良区
+2025-10-26 20:27:23,030 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:26,643 [INFO] Response status: 200
+2025-10-26 20:27:26,643 [INFO] ✅ request page 4 values / 热轧中厚钢板 δ5~20 Q235B t 4168 2025-06 阎良区
+2025-10-26 20:27:26,643 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:30,583 [INFO] Response status: 200
+2025-10-26 20:27:30,583 [INFO] ✅ request page 4 values / 镀锌薄钢板 δ0.35~1.5 t 4887 2025-06 阎良区
+2025-10-26 20:27:30,583 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:34,348 [INFO] Response status: 200
+2025-10-26 20:27:35,114 [INFO] [['41', '/', '镀锌薄钢板', 'δ2~4', 't', '4865'], ['42', '/', '热轧花纹钢板', 'δ3~8 H-Q235B', 't', '3605'], ['43', '/', '不锈钢板', 'δ0.5~2 SS304', 't', '15966'], ['44', '/', '不锈钢板', 'δ2.5~5 SS304', 't', '16062'], ['45', '/', '不锈钢板', 'δ6~10 SS304', 't', '16172'], ['46', '/', '不锈钢板', 'δ12~16 SS304', 't', '16195'], ['47', '/', '不锈钢板', 'δ18~25 SS304', 't', '16428'], ['48', '/', '彩涂钢板（各色）', 'δ0.4', '㎡', '17'], ['49', '/', '彩涂钢板（各色）', 'δ0.5', '㎡', '20'], ['50', '/', '彩涂钢板（各色）', 'δ0.6', '㎡', '24']]
+2025-10-26 20:27:35,235 [INFO] ✅ request page 5 values / 镀锌薄钢板 δ2~4 t 4865 2025-06 阎良区
+2025-10-26 20:27:35,235 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:38,652 [INFO] Response status: 200
+2025-10-26 20:27:38,652 [INFO] ✅ request page 5 values / 热轧花纹钢板 δ3~8 H-Q235B t 3605 2025-06 阎良区
+2025-10-26 20:27:38,652 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:42,523 [INFO] Response status: 200
+2025-10-26 20:27:42,524 [INFO] ✅ request page 5 values / 不锈钢板 δ0.5~2 SS304 t 15966 2025-06 阎良区
+2025-10-26 20:27:42,524 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:46,373 [INFO] Response status: 200
+2025-10-26 20:27:46,373 [INFO] ✅ request page 5 values / 不锈钢板 δ2.5~5 SS304 t 16062 2025-06 阎良区
+2025-10-26 20:27:46,373 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:50,245 [INFO] Response status: 200
+2025-10-26 20:27:50,246 [INFO] ✅ request page 5 values / 不锈钢板 δ6~10 SS304 t 16172 2025-06 阎良区
+2025-10-26 20:27:50,246 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:54,001 [INFO] Response status: 200
+2025-10-26 20:27:54,003 [INFO] ✅ request page 5 values / 不锈钢板 δ12~16 SS304 t 16195 2025-06 阎良区
+2025-10-26 20:27:54,003 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:27:57,794 [INFO] Response status: 200
+2025-10-26 20:27:57,794 [INFO] ✅ request page 5 values / 不锈钢板 δ18~25 SS304 t 16428 2025-06 阎良区
+2025-10-26 20:27:57,794 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:01,721 [INFO] Response status: 200
+2025-10-26 20:28:01,722 [INFO] ✅ request page 5 values / 彩涂钢板（各色） δ0.4 ㎡ 17 2025-06 阎良区
+2025-10-26 20:28:01,722 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:05,190 [INFO] Response status: 200
+2025-10-26 20:28:05,190 [INFO] ✅ request page 5 values / 彩涂钢板（各色） δ0.5 ㎡ 20 2025-06 阎良区
+2025-10-26 20:28:05,190 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:08,547 [INFO] Response status: 200
+2025-10-26 20:28:08,547 [INFO] ✅ request page 5 values / 彩涂钢板（各色） δ0.6 ㎡ 24 2025-06 阎良区
+2025-10-26 20:28:08,547 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:11,873 [INFO] Response status: 200
+2025-10-26 20:28:12,473 [INFO] [['51', '/', 'PE板', '厚度:10.5mm', '㎡', '109'], ['52', '/', 'PVC洁净板（基材）', '1200×2400×3mm', '张', '166'], ['53', '/', 'PVC洁净板（基材）', '1200×3000×3mm', '张', '202'], ['54', '/', '聚乙烯低发泡填缝板', '/', 'm3', '1479'], ['55', '/', '橡塑板材', '厚度:10~60mm', 'm3', '1532'], ['56', '/', '防火型无纺布', '140g/㎡', '㎡', '3.4'], ['57', '/', '透水土工布', '150g/㎡', '㎡', '2.33'], ['58', '/', '透水土工布', '200g/㎡', '㎡', '2.56'], ['59', '/', '防渗土工膜（两布一膜）', '土工布:150g/m2 土工膜:0.5mm', '㎡', '10'], ['60', '/', '防渗土工膜（两布一膜）', '土工布:200g/m2 土工膜:0.5mm', '㎡', '12']]
+2025-10-26 20:28:12,475 [INFO] ✅ request page 6 values / PE板 厚度:10.5mm ㎡ 109 2025-06 阎良区
+2025-10-26 20:28:12,475 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:16,110 [INFO] Response status: 200
+2025-10-26 20:28:16,111 [INFO] ✅ request page 6 values / PVC洁净板（基材） 1200×2400×3mm 张 166 2025-06 阎良区
+2025-10-26 20:28:16,111 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:19,858 [INFO] Response status: 200
+2025-10-26 20:28:19,858 [INFO] ✅ request page 6 values / PVC洁净板（基材） 1200×3000×3mm 张 202 2025-06 阎良区
+2025-10-26 20:28:19,858 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:23,444 [INFO] Response status: 200
+2025-10-26 20:28:23,444 [INFO] ✅ request page 6 values / 聚乙烯低发泡填缝板 / m3 1479 2025-06 阎良区
+2025-10-26 20:28:23,444 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:27,059 [INFO] Response status: 200
+2025-10-26 20:28:27,059 [INFO] ✅ request page 6 values / 橡塑板材 厚度:10~60mm m3 1532 2025-06 阎良区
+2025-10-26 20:28:27,059 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:30,803 [INFO] Response status: 200
+2025-10-26 20:28:30,804 [INFO] ✅ request page 6 values / 防火型无纺布 140g/㎡ ㎡ 3.4 2025-06 阎良区
+2025-10-26 20:28:30,804 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:34,604 [INFO] Response status: 200
+2025-10-26 20:28:34,604 [INFO] ✅ request page 6 values / 透水土工布 150g/㎡ ㎡ 2.33 2025-06 阎良区
+2025-10-26 20:28:34,605 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:38,398 [INFO] Response status: 200
+2025-10-26 20:28:38,399 [INFO] ✅ request page 6 values / 透水土工布 200g/㎡ ㎡ 2.56 2025-06 阎良区
+2025-10-26 20:28:38,399 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:42,017 [INFO] Response status: 200
+2025-10-26 20:28:42,018 [INFO] ✅ request page 6 values / 防渗土工膜（两布一膜） 土工布:150g/m2 土工膜:0.5mm ㎡ 10 2025-06 阎良区
+2025-10-26 20:28:42,018 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:46,681 [INFO] Response status: 200
+2025-10-26 20:28:46,681 [INFO] ✅ request page 6 values / 防渗土工膜（两布一膜） 土工布:200g/m2 土工膜:0.5mm ㎡ 12 2025-06 阎良区
+2025-10-26 20:28:46,681 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:51,324 [INFO] Response status: 200
+2025-10-26 20:28:51,811 [INFO] [['61', '/', '防渗土工膜（两布一膜）', '土工布:300g/m2 土工膜:0.5mm', '㎡', '15'], ['62', '/', '电锁', 'DC24V供电', '套', '286'], ['63', '/', '常开门电动闭门器', '/', '套', '389'], ['64', '/', '感应水龙头', 'DN15', '套', '463'], ['65', '/', '塑料水龙头', 'DN15', '套', '3.53'], ['66', '/', '铸铁水龙头', 'DN15', '套', '13'], ['67', '/', '不锈钢水龙头', 'DN15', '套', '21'], ['68', '/', '不锈钢水龙头', 'DN20', '套', '27'], ['69', '/', '全铜水龙头', 'DN15', '个', '30'], ['70', '/', '全铜水龙头', 'DN20', '个', '32']]
+2025-10-26 20:28:51,813 [INFO] ✅ request page 7 values / 防渗土工膜（两布一膜） 土工布:300g/m2 土工膜:0.5mm ㎡ 15 2025-06 阎良区
+2025-10-26 20:28:51,813 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:56,464 [INFO] Response status: 200
+2025-10-26 20:28:56,465 [INFO] ✅ request page 7 values / 电锁 DC24V供电 套 286 2025-06 阎良区
+2025-10-26 20:28:56,465 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:28:59,985 [INFO] Response status: 200
+2025-10-26 20:28:59,985 [INFO] ✅ request page 7 values / 常开门电动闭门器 / 套 389 2025-06 阎良区
+2025-10-26 20:28:59,985 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:03,565 [INFO] Response status: 200
+2025-10-26 20:29:03,565 [INFO] ✅ request page 7 values / 感应水龙头 DN15 套 463 2025-06 阎良区
+2025-10-26 20:29:03,565 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:07,083 [INFO] Response status: 200
+2025-10-26 20:29:07,083 [INFO] ✅ request page 7 values / 塑料水龙头 DN15 套 3.53 2025-06 阎良区
+2025-10-26 20:29:07,083 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:10,610 [INFO] Response status: 200
+2025-10-26 20:29:10,610 [INFO] ✅ request page 7 values / 铸铁水龙头 DN15 套 13 2025-06 阎良区
+2025-10-26 20:29:10,611 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:14,187 [INFO] Response status: 200
+2025-10-26 20:29:14,187 [INFO] ✅ request page 7 values / 不锈钢水龙头 DN15 套 21 2025-06 阎良区
+2025-10-26 20:29:14,187 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:17,521 [INFO] Response status: 200
+2025-10-26 20:29:17,522 [INFO] ✅ request page 7 values / 不锈钢水龙头 DN20 套 27 2025-06 阎良区
+2025-10-26 20:29:17,522 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:20,823 [INFO] Response status: 200
+2025-10-26 20:29:20,823 [INFO] ✅ request page 7 values / 全铜水龙头 DN15 个 30 2025-06 阎良区
+2025-10-26 20:29:20,824 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:24,295 [INFO] Response status: 200
+2025-10-26 20:29:24,295 [INFO] ✅ request page 7 values / 全铜水龙头 DN20 个 32 2025-06 阎良区
+2025-10-26 20:29:24,295 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:27,658 [INFO] Response status: 200
+2025-10-26 20:29:28,113 [INFO] [['71', '/', '铜镀铬龙头', 'DN15', '个', '45'], ['72', '/', '铜镀铬龙头', 'DN20', '个', '49'], ['73', '/', '入墙式龙头（淋浴花洒）', 'DB103C', '套', '192'], ['74', '/', '入墙式龙头（淋浴花洒）', 'DB108C', '套', '209'], ['75', '/', '入墙式龙头（淋浴花洒）', 'curio DB111C', '套', '594'], ['76', '/', '入墙式龙头（淋浴花洒）', 'curio DB112C', '套', '425'], ['77', '/', '入墙式龙头（淋浴花洒）', 'abba DB116C', '套', '332'], ['78', '/', '铸铁无水封地漏', 'DN50', '个', '65'], ['79', '/', '冲洗阀(冲洗龙头)', 'DN25', '个', '131'], ['80', '/', '铝板网', '板厚0.5mm', '㎡', '21']]
+2025-10-26 20:29:28,115 [INFO] ✅ request page 8 values / 铜镀铬龙头 DN15 个 45 2025-06 阎良区
+2025-10-26 20:29:28,115 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:31,400 [INFO] Response status: 200
+2025-10-26 20:29:31,401 [INFO] ✅ request page 8 values / 铜镀铬龙头 DN20 个 49 2025-06 阎良区
+2025-10-26 20:29:31,401 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:34,689 [INFO] Response status: 200
+2025-10-26 20:29:34,690 [INFO] ✅ request page 8 values / 入墙式龙头（淋浴花洒） DB103C 套 192 2025-06 阎良区
+2025-10-26 20:29:34,690 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:38,594 [INFO] Response status: 200
+2025-10-26 20:29:38,594 [INFO] ✅ request page 8 values / 入墙式龙头（淋浴花洒） DB108C 套 209 2025-06 阎良区
+2025-10-26 20:29:38,595 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:42,372 [INFO] Response status: 200
+2025-10-26 20:29:42,372 [INFO] ✅ request page 8 values / 入墙式龙头（淋浴花洒） curio DB111C 套 594 2025-06 阎良区
+2025-10-26 20:29:42,373 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:46,011 [INFO] Response status: 200
+2025-10-26 20:29:46,012 [INFO] ✅ request page 8 values / 入墙式龙头（淋浴花洒） curio DB112C 套 425 2025-06 阎良区
+2025-10-26 20:29:46,012 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:49,619 [INFO] Response status: 200
+2025-10-26 20:29:49,619 [INFO] ✅ request page 8 values / 入墙式龙头（淋浴花洒） abba DB116C 套 332 2025-06 阎良区
+2025-10-26 20:29:49,619 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:53,183 [INFO] Response status: 200
+2025-10-26 20:29:53,184 [INFO] ✅ request page 8 values / 铸铁无水封地漏 DN50 个 65 2025-06 阎良区
+2025-10-26 20:29:53,184 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:29:56,727 [INFO] Response status: 200
+2025-10-26 20:29:56,727 [INFO] ✅ request page 8 values / 冲洗阀(冲洗龙头) DN25 个 131 2025-06 阎良区
+2025-10-26 20:29:56,728 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:00,189 [INFO] Response status: 200
+2025-10-26 20:30:00,189 [INFO] ✅ request page 8 values / 铝板网 板厚0.5mm ㎡ 21 2025-06 阎良区
+2025-10-26 20:30:00,189 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:03,689 [INFO] Response status: 200
+2025-10-26 20:30:03,963 [INFO] [['81', '/', '铝板网', '板厚0.8mm', '㎡', '24'], ['82', '/', '钢板网', '板厚0.8mm', '㎡', '18'], ['83', '/', '钢板网', '板厚3.0mm', '㎡', '31'], ['84', '/', '钢筋网片', '直径:Φ6 间距:150×150', '㎡', '22'], ['85', '/', '钢筋网片', '直径:Φ6 间距:200×200', '㎡', '21'], ['86', '/', '普通硅酸盐水泥', '袋装 P.O42.5R', 't', '501'], ['87', '/', '普通硅酸盐水泥', '袋装 P.O52.5R', 't', '526'], ['88', '/', '矿渣硅酸盐水泥', '袋装 P.S.A32.5', 't', '476'], ['89', '/', '矿渣硅酸盐水泥', '袋装 P.S.A42.5', 't', '516'], ['90', '/', '复合硅酸盐水泥', '袋装 P.C32.5', 't', '438']]
+2025-10-26 20:30:03,964 [INFO] ✅ request page 9 values / 铝板网 板厚0.8mm ㎡ 24 2025-06 阎良区
+2025-10-26 20:30:03,964 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:07,363 [INFO] Response status: 200
+2025-10-26 20:30:07,364 [INFO] ✅ request page 9 values / 钢板网 板厚0.8mm ㎡ 18 2025-06 阎良区
+2025-10-26 20:30:07,364 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:10,821 [INFO] Response status: 200
+2025-10-26 20:30:10,821 [INFO] ✅ request page 9 values / 钢板网 板厚3.0mm ㎡ 31 2025-06 阎良区
+2025-10-26 20:30:10,822 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:14,246 [INFO] Response status: 200
+2025-10-26 20:30:14,246 [INFO] ✅ request page 9 values / 钢筋网片 直径:Φ6 间距:150×150 ㎡ 22 2025-06 阎良区
+2025-10-26 20:30:14,246 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:17,935 [INFO] Response status: 200
+2025-10-26 20:30:17,935 [INFO] ✅ request page 9 values / 钢筋网片 直径:Φ6 间距:200×200 ㎡ 21 2025-06 阎良区
+2025-10-26 20:30:17,935 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:21,494 [INFO] Response status: 200
+2025-10-26 20:30:21,494 [INFO] ✅ request page 9 values / 普通硅酸盐水泥 袋装 P.O42.5R t 501 2025-06 阎良区
+2025-10-26 20:30:21,494 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:24,926 [INFO] Response status: 200
+2025-10-26 20:30:24,926 [INFO] ✅ request page 9 values / 普通硅酸盐水泥 袋装 P.O52.5R t 526 2025-06 阎良区
+2025-10-26 20:30:24,926 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:28,222 [INFO] Response status: 200
+2025-10-26 20:30:28,222 [INFO] ✅ request page 9 values / 矿渣硅酸盐水泥 袋装 P.S.A32.5 t 476 2025-06 阎良区
+2025-10-26 20:30:28,222 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:31,678 [INFO] Response status: 200
+2025-10-26 20:30:31,679 [INFO] ✅ request page 9 values / 矿渣硅酸盐水泥 袋装 P.S.A42.5 t 516 2025-06 阎良区
+2025-10-26 20:30:31,679 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:35,056 [INFO] Response status: 200
+2025-10-26 20:30:35,057 [INFO] ✅ request page 9 values / 复合硅酸盐水泥 袋装 P.C32.5 t 438 2025-06 阎良区
+2025-10-26 20:30:35,057 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:38,788 [INFO] Response status: 200
+2025-10-26 20:30:39,353 [INFO] [['91', '/', '复合硅酸盐水泥', '袋装 P.C42.5', 't', '529'], ['92', '/', '硅酸盐膨胀水泥', '/', 't', '689'], ['93', '/', '净砂', '/', 'm3', '211'], ['94', '/', '中砂', '/', 'm3', '201'], ['95', '/', '粗砂', '/', 'm3', '205'], ['96', '/', '绿豆砂', '/', 'm3', '259'], ['97', '/', '细砂', '/', 'm3', '203'], ['98', '/', '天然砂', '/', 'm3', '196'], ['99', '/', '金刚砂', '/', 'kg', '2.85'], ['100', '/', '石英砂', '/', 'kg', '2']]
+2025-10-26 20:30:39,356 [INFO] ✅ request page 10 values / 复合硅酸盐水泥 袋装 P.C42.5 t 529 2025-06 阎良区
+2025-10-26 20:30:39,356 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:42,976 [INFO] Response status: 200
+2025-10-26 20:30:42,976 [INFO] ✅ request page 10 values / 硅酸盐膨胀水泥 / t 689 2025-06 阎良区
+2025-10-26 20:30:42,976 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:46,208 [INFO] Response status: 200
+2025-10-26 20:30:46,209 [INFO] ✅ request page 10 values / 净砂 / m3 211 2025-06 阎良区
+2025-10-26 20:30:46,209 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:49,385 [INFO] Response status: 200
+2025-10-26 20:30:49,385 [INFO] ✅ request page 10 values / 中砂 / m3 201 2025-06 阎良区
+2025-10-26 20:30:49,385 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:52,549 [INFO] Response status: 200
+2025-10-26 20:30:52,549 [INFO] ✅ request page 10 values / 粗砂 / m3 205 2025-06 阎良区
+2025-10-26 20:30:52,549 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:55,791 [INFO] Response status: 200
+2025-10-26 20:30:55,791 [INFO] ✅ request page 10 values / 绿豆砂 / m3 259 2025-06 阎良区
+2025-10-26 20:30:55,791 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:30:58,946 [INFO] Response status: 200
+2025-10-26 20:30:58,946 [INFO] ✅ request page 10 values / 细砂 / m3 203 2025-06 阎良区
+2025-10-26 20:30:58,946 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:31:02,227 [INFO] Response status: 200
+2025-10-26 20:31:02,228 [INFO] ✅ request page 10 values / 天然砂 / m3 196 2025-06 阎良区
+2025-10-26 20:31:02,228 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:31:27,872 [INFO] Testing module: gov_xian
+2025-10-26 20:31:27,873 [INFO] Module URL: https://zjj.xa.gov.cn/zxcx/gczj/indexHis.aspx?page=1&qdm=ZZXU
+2025-10-26 20:31:27,873 [INFO] Module URL validation passed ✅
