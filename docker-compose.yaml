@@ -1,12 +1,13 @@
-version: '3.8'
+version: "3.8"
 
 services:
-  xian:
-    build:
-      context: app/src/gov_xian/xian
+  gov_xian:
+    build: .
+    environment:
+      - GOV_MODULE=gov_xian
+    ipc: host
     volumes:
-      - ./app/src/gov_xian:/usr/src/app
-    command: python playwright-test.py
+      - .:/app
 
 networks:
   elastic:
