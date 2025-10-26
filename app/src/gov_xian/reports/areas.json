@@ -1,3 +1,8 @@
 [
-  { "value": "YLQU", "label": "阎良区" }
+  { "value": "YLQU", "label": "阎良区" },
+  { "value": "LTQU", "label": "临潼区" },
+  { "value": "GLQU", "label": "高陵区" },
+  { "value": "HYQU", "label": "鄠邑区" },
+  { "value": "LTXU", "label": "蓝田县" },
+  { "value": "ZZXU", "label": "周至县" }
 ]
