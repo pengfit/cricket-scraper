@@ -1,15 +1,22 @@
 # test_xian.py
-import pytest
 from bs4 import BeautifulSoup
+import json
+
+from twisted.spread.pb import respond
+
+from app.src.dify_api.api_http_tools import DifyAPIClient
 from app.src.utils.get_env import get_env_vars
 from app.src.utils.logger_util import setup_logger
-from app.src.utils.json_util import read_file, write_file
-
+from app.src.utils.json_util import read_file
 # Get environment variables
-GOV_MODULE, MODULE_URL,REPORTS_DIR = get_env_vars()
+GOV_MODULE, MODULE_URL,REPORTS_DIR,API_KEY = get_env_vars()
 
 # Set up logger
 logger = setup_logger(log_file=f"{REPORTS_DIR}/running.log")
+
+
+client = DifyAPIClient(base_url="http://localhost", api_key=API_KEY, logger=logger)
+
 
 def issue_html(html: str) -> list:
     soup = BeautifulSoup(html, 'html.parser')
@@ -29,14 +36,14 @@ def test_module_url():
     logger.info("Module URL validation passed ✅")
 
 
-def test_read_issue(page):
-    page.goto(MODULE_URL,timeout = 60000)
-    assert "西安" in page.title()
-    page.wait_for_selector('#textGK').click()
-    all_li = page.locator('#gklist').inner_html()
-    issue = issue_html(all_li)
-    write_file(f"{REPORTS_DIR}/issue.json", issue)
-
+# def test_read_issue(page):
+#     page.goto(MODULE_URL,timeout = 60000)
+#     assert "西安" in page.title()
+#     page.wait_for_selector('#textGK').click()
+#     all_li = page.locator('#gklist').inner_html()
+#     issue = issue_html(all_li)
+#     write_file(f"{REPORTS_DIR}/issue.json", issue)
+#
 
 
 def test_read_pages(page):
@@ -50,10 +57,15 @@ def test_read_pages(page):
             logger.info("县区: %s 日期: %s",area,issue)
             browser_pages(page,area,issue)
 
-
-
-
-
+def parse_detail(row,date:str):
+    return {
+        "category": row[1],
+        "subCategory": row[2],
+        "spec": row[3],
+        "unit": row[4],
+        "date": date,
+        "price": float(row[5])
+    }
 
 def browser_pages(page,area,issue):
     #区域
@@ -69,8 +81,22 @@ def browser_pages(page,area,issue):
         for row in rows[2:]:
             cells = row.locator("td").all_inner_texts()
             result.append(cells)
-        logger.info("%s",row)
+        logger.info("%s",result)
         pre_next = page.locator('#rptPager .prenext').last
-        break
-    return
+        if pre_next.get_attribute("disabled"):
+            logger.info("🔒 Link is disabled")
+            break
+        else:
+            for obj in result:
+                logger.info("✅ Link is active")
+                materials =  parse_detail(obj,issue['date'])
+                values = json.dumps(materials, ensure_ascii=False)
+                logger.info("✅ request values %s",values)
+                resp = client.run_workflow(values=values, gov_module="gov_xian")
+                if resp:
+                    logger.info("Response status: %s", resp.status_code)
+                    logger.info("Response: %s", resp.text)
+            break
+            pre_next.click()
+    client.close()
 
