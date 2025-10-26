@@ -1,15 +1,25 @@
-#!/usr/bin/env bash
-set -e
+#!/bin/bash
 
-GOV_MODULE=$1
+GOV_MODULE=$1  # first argument, e.g., gov_xian
 
-echo "🔹 Running tests for: ${GOV_MODULE}"
+REPORTS_DIR="app/src/"
 
-mkdir -p reports
+# Map module to URL (you can extend this map)
+if [ "$GOV_MODULE" = "gov_xian" ]; then
+    MODULE_URL="https://zjj.xa.gov.cn/zxcx/gczj/indexHis.aspx?page=1&qdm=ZZXU"
+else
+    echo "Unknown GOV_MODULE: $GOV_MODULE"
+    exit 1
+fi
 
-pytest "app/src/${GOV_MODULE}" \
-  --tracing=off \
-  --html="reports/${GOV_MODULE}.html" \
-  --self-contained-html
+# Export environment variables so pytest can see them
+export GOV_MODULE
+export MODULE_URL
+export REPORTS_DIR
 
-echo "✅ Report generated at reports/${GOV_MODULE}.html"
+# Run pytest
+pytest "app/src/$GOV_MODULE" \
+    --html="app/src/$GOV_MODULE/reports/$GOV_MODULE.html" \
+    --self-contained-html
+
+echo "✅ Report generated at reports/$GOV_MODULE.html"
