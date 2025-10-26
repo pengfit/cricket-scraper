@@ -11,12 +11,16 @@ class DifyAPIClient:
             "Authorization": f"Bearer {self.api_key}"
         })
 
-    def run_workflow(self, values: str, gov_module: str, timeout: int = 30):
+    def run_workflow(self,
+                     values: str,
+                     input_format:str,
+                     gov_module: str, timeout: int = 30):
         url = f"{self.base_url}/v1/workflows/run"
         payload = {
             "inputs": {
                 "values": values,
-                "module": gov_module
+                "module": gov_module,
+                "input_format":input_format
             },
             "user": gov_module
         }

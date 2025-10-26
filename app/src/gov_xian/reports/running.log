@@ -1,255 +1,137 @@
-2025-10-26 17:21:36,056 [INFO] Testing module: gov_xian
-2025-10-26 17:21:36,056 [INFO] Module URL: https://zjj.xa.gov.cn/zxcx/gczj/indexHis.aspx?page=1&qdm=ZZXU
-2025-10-26 17:21:36,056 [INFO] Module URL validation passed ✅
-2025-10-26 17:21:47,268 [INFO] 县区: {'value': 'YLQU', 'label': '阎良区'} 日期: {'name': '2025年06月造价信息表', 'date': '2025-06'}
-2025-10-26 17:21:47,885 [INFO] [['1', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ6~8', 't', '3568'], ['2', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ10~12', 't', '3552'], ['3', '/', '热轧钢筋', 'Q235 Φ6~8', 't', '3588'], ['4', '/', '热轧钢筋', 'Q235 Φ10~12', 't', '3580'], ['5', '/', '热轧带肋钢筋', 'HRB400E Φ8~10', 't', '3533'], ['6', '/', '热轧带肋钢筋', 'HRB400E Φ12~14', 't', '3503'], ['7', '/', '热轧带肋钢筋', 'HRB400E Φ16~18', 't', '3356'], ['8', '/', '热轧带肋钢筋', 'HRB400E Φ20~25', 't', '3328'], ['9', '/', '热轧带肋钢筋', 'HRB400E Φ28~32', 't', '3409'], ['10', '/', '热轧带肋钢筋', 'HRB500E Φ8~10', 't', '3721']]
-2025-10-26 17:21:47,887 [INFO] ✅ Link is active
-2025-10-26 17:21:47,887 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ6~8 t 3568 2025-06
-2025-10-26 17:21:47,887 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:48,066 [INFO] Response status: 200
-2025-10-26 17:21:48,066 [INFO] ✅ Link is active
-2025-10-26 17:21:48,066 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ10~12 t 3552 2025-06
-2025-10-26 17:21:48,066 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:48,220 [INFO] Response status: 200
-2025-10-26 17:21:48,220 [INFO] ✅ Link is active
-2025-10-26 17:21:48,220 [INFO] ✅ request values / 热轧钢筋 Q235 Φ6~8 t 3588 2025-06
-2025-10-26 17:21:48,221 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:48,370 [INFO] Response status: 200
-2025-10-26 17:21:48,370 [INFO] ✅ Link is active
-2025-10-26 17:21:48,370 [INFO] ✅ request values / 热轧钢筋 Q235 Φ10~12 t 3580 2025-06
-2025-10-26 17:21:48,370 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:48,516 [INFO] Response status: 200
-2025-10-26 17:21:48,516 [INFO] ✅ Link is active
-2025-10-26 17:21:48,516 [INFO] ✅ request values / 热轧带肋钢筋 HRB400E Φ8~10 t 3533 2025-06
-2025-10-26 17:21:48,516 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:48,661 [INFO] Response status: 200
-2025-10-26 17:21:48,662 [INFO] ✅ Link is active
-2025-10-26 17:21:48,662 [INFO] ✅ request values / 热轧带肋钢筋 HRB400E Φ12~14 t 3503 2025-06
-2025-10-26 17:21:48,662 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:48,810 [INFO] Response status: 200
-2025-10-26 17:21:48,810 [INFO] ✅ Link is active
-2025-10-26 17:21:48,810 [INFO] ✅ request values / 热轧带肋钢筋 HRB400E Φ16~18 t 3356 2025-06
-2025-10-26 17:21:48,810 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:48,960 [INFO] Response status: 200
-2025-10-26 17:21:48,960 [INFO] ✅ Link is active
-2025-10-26 17:21:48,960 [INFO] ✅ request values / 热轧带肋钢筋 HRB400E Φ20~25 t 3328 2025-06
-2025-10-26 17:21:48,960 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:49,106 [INFO] Response status: 200
-2025-10-26 17:21:49,106 [INFO] ✅ Link is active
-2025-10-26 17:21:49,106 [INFO] ✅ request values / 热轧带肋钢筋 HRB400E Φ28~32 t 3409 2025-06
-2025-10-26 17:21:49,106 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:49,255 [INFO] Response status: 200
-2025-10-26 17:21:49,256 [INFO] ✅ Link is active
-2025-10-26 17:21:49,256 [INFO] ✅ request values / 热轧带肋钢筋 HRB500E Φ8~10 t 3721 2025-06
-2025-10-26 17:21:49,256 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:49,406 [INFO] Response status: 200
-2025-10-26 17:21:49,406 [INFO] 县区: {'value': 'LTQU', 'label': '临潼区'} 日期: {'name': '2025年06月造价信息表', 'date': '2025-06'}
-2025-10-26 17:21:50,003 [INFO] [['1', '/', '热轧光圆钢筋', 'HPB300 Φ6~8', 't', '3693'], ['2', '/', '热轧光圆钢筋', 'HPB300 Φ10~12', 't', '3683'], ['3', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ6~8', 't', '3706'], ['4', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ10~12', 't', '3723'], ['5', '/', '热轧带肋钢筋', 'HRB400 Φ8~10', 't', '3736'], ['6', '/', '热轧带肋钢筋', 'HRB400 Φ12~14', 't', '3703'], ['7', '/', '热轧带肋钢筋', 'HRB400 Φ16~18', 't', '3645'], ['8', '/', '热轧带肋钢筋', 'HRB400 Φ20~25', 't', '3603'], ['9', '/', '热轧带肋钢筋', 'HRB400 Φ28~32', 't', '3679'], ['10', '/', '热轧带肋钢筋', 'HRB500 Φ8~10', 't', '3888']]
-2025-10-26 17:21:50,004 [INFO] ✅ Link is active
-2025-10-26 17:21:50,004 [INFO] ✅ request values / 热轧光圆钢筋 HPB300 Φ6~8 t 3693 2025-06
-2025-10-26 17:21:50,004 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:50,171 [INFO] Response status: 200
-2025-10-26 17:21:50,171 [INFO] ✅ Link is active
-2025-10-26 17:21:50,171 [INFO] ✅ request values / 热轧光圆钢筋 HPB300 Φ10~12 t 3683 2025-06
-2025-10-26 17:21:50,171 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:50,321 [INFO] Response status: 200
-2025-10-26 17:21:50,321 [INFO] ✅ Link is active
-2025-10-26 17:21:50,321 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ6~8 t 3706 2025-06
-2025-10-26 17:21:50,322 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:50,471 [INFO] Response status: 200
-2025-10-26 17:21:50,471 [INFO] ✅ Link is active
-2025-10-26 17:21:50,471 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ10~12 t 3723 2025-06
-2025-10-26 17:21:50,471 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:50,714 [INFO] Response status: 200
-2025-10-26 17:21:50,715 [INFO] ✅ Link is active
-2025-10-26 17:21:50,715 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ8~10 t 3736 2025-06
-2025-10-26 17:21:50,715 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:50,856 [INFO] Response status: 200
-2025-10-26 17:21:50,857 [INFO] ✅ Link is active
-2025-10-26 17:21:50,857 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ12~14 t 3703 2025-06
-2025-10-26 17:21:50,857 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:51,005 [INFO] Response status: 200
-2025-10-26 17:21:51,005 [INFO] ✅ Link is active
-2025-10-26 17:21:51,006 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ16~18 t 3645 2025-06
-2025-10-26 17:21:51,006 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:51,155 [INFO] Response status: 200
-2025-10-26 17:21:51,155 [INFO] ✅ Link is active
-2025-10-26 17:21:51,155 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ20~25 t 3603 2025-06
-2025-10-26 17:21:51,155 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:51,300 [INFO] Response status: 200
-2025-10-26 17:21:51,301 [INFO] ✅ Link is active
-2025-10-26 17:21:51,301 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ28~32 t 3679 2025-06
-2025-10-26 17:21:51,301 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:51,446 [INFO] Response status: 200
-2025-10-26 17:21:51,446 [INFO] ✅ Link is active
-2025-10-26 17:21:51,447 [INFO] ✅ request values / 热轧带肋钢筋 HRB500 Φ8~10 t 3888 2025-06
-2025-10-26 17:21:51,447 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:51,591 [INFO] Response status: 200
-2025-10-26 17:21:51,591 [INFO] 县区: {'value': 'GLQU', 'label': '高陵区'} 日期: {'name': '2025年06月造价信息表', 'date': '2025-06'}
-2025-10-26 17:21:52,745 [INFO] [['1', '/', '热轧光圆钢筋', 'HPB300 Φ6~8', 't', '3626'], ['2', '/', '热轧光圆钢筋', 'HPB300 Φ10~12', 't', '3626'], ['3', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ6~8', 't', '3626'], ['4', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ10~12', 't', '3526'], ['5', '/', '热轧带肋钢筋', 'HRB400 Φ8~10', 't', '3526'], ['6', '/', '热轧带肋钢筋', 'HRB400 Φ12~14', 't', '3526'], ['7', '/', '热轧带肋钢筋', 'HRB400 Φ16~18', 't', '3526'], ['8', '/', '热轧带肋钢筋', 'HRB400 Φ20~25', 't', '3526'], ['9', '/', '热轧带肋钢筋', 'HRB400 Φ28~32', 't', '3526'], ['10', '/', '热轧带肋钢筋', 'HRB500 Φ8~10', 't', '3796']]
-2025-10-26 17:21:52,747 [INFO] ✅ Link is active
-2025-10-26 17:21:52,747 [INFO] ✅ request values / 热轧光圆钢筋 HPB300 Φ6~8 t 3626 2025-06
-2025-10-26 17:21:52,747 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:52,915 [INFO] Response status: 200
-2025-10-26 17:21:52,916 [INFO] ✅ Link is active
-2025-10-26 17:21:52,916 [INFO] ✅ request values / 热轧光圆钢筋 HPB300 Φ10~12 t 3626 2025-06
-2025-10-26 17:21:52,916 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:53,069 [INFO] Response status: 200
-2025-10-26 17:21:53,070 [INFO] ✅ Link is active
-2025-10-26 17:21:53,070 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ6~8 t 3626 2025-06
-2025-10-26 17:21:53,070 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:53,220 [INFO] Response status: 200
-2025-10-26 17:21:53,220 [INFO] ✅ Link is active
-2025-10-26 17:21:53,220 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ10~12 t 3526 2025-06
-2025-10-26 17:21:53,221 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:53,369 [INFO] Response status: 200
-2025-10-26 17:21:53,369 [INFO] ✅ Link is active
-2025-10-26 17:21:53,370 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ8~10 t 3526 2025-06
-2025-10-26 17:21:53,370 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:53,515 [INFO] Response status: 200
-2025-10-26 17:21:53,515 [INFO] ✅ Link is active
-2025-10-26 17:21:53,515 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ12~14 t 3526 2025-06
-2025-10-26 17:21:53,515 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:53,660 [INFO] Response status: 200
-2025-10-26 17:21:53,660 [INFO] ✅ Link is active
-2025-10-26 17:21:53,660 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ16~18 t 3526 2025-06
-2025-10-26 17:21:53,660 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:53,808 [INFO] Response status: 200
-2025-10-26 17:21:53,808 [INFO] ✅ Link is active
-2025-10-26 17:21:53,808 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ20~25 t 3526 2025-06
-2025-10-26 17:21:53,808 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:53,957 [INFO] Response status: 200
-2025-10-26 17:21:53,957 [INFO] ✅ Link is active
-2025-10-26 17:21:53,957 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ28~32 t 3526 2025-06
-2025-10-26 17:21:53,957 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:54,105 [INFO] Response status: 200
-2025-10-26 17:21:54,105 [INFO] ✅ Link is active
-2025-10-26 17:21:54,105 [INFO] ✅ request values / 热轧带肋钢筋 HRB500 Φ8~10 t 3796 2025-06
-2025-10-26 17:21:54,106 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:54,253 [INFO] Response status: 200
-2025-10-26 17:21:54,254 [INFO] 县区: {'value': 'HYQU', 'label': '鄠邑区'} 日期: {'name': '2025年06月造价信息表', 'date': '2025-06'}
-2025-10-26 17:21:54,918 [INFO] [['1', '/', '热轧光圆钢筋', 'HPB300 Φ6~8', 't', '3696'], ['2', '/', '热轧光圆钢筋', 'HPB300 Φ10~12', 't', '3669'], ['3', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ6~8', 't', '3749'], ['4', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ10~12', 't', '3776'], ['5', '/', '热轧带肋钢筋', 'HRB400 Φ8~10', 't', '3677'], ['6', '/', '热轧带肋钢筋', 'HRB400 Φ12~14', 't', '3650'], ['7', '/', '热轧带肋钢筋', 'HRB400 Φ16~18', 't', '3538'], ['8', '/', '热轧带肋钢筋', 'HRB400 Φ20~25', 't', '3497'], ['9', '/', '热轧带肋钢筋', 'HRB400 Φ28~32', 't', '3609'], ['10', '/', '热轧带肋钢筋', 'HRB500 Φ8~10', 't', '3966']]
-2025-10-26 17:21:54,919 [INFO] ✅ Link is active
-2025-10-26 17:21:54,920 [INFO] ✅ request values / 热轧光圆钢筋 HPB300 Φ6~8 t 3696 2025-06
-2025-10-26 17:21:54,920 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:55,090 [INFO] Response status: 200
-2025-10-26 17:21:55,090 [INFO] ✅ Link is active
-2025-10-26 17:21:55,090 [INFO] ✅ request values / 热轧光圆钢筋 HPB300 Φ10~12 t 3669 2025-06
-2025-10-26 17:21:55,090 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:55,242 [INFO] Response status: 200
-2025-10-26 17:21:55,242 [INFO] ✅ Link is active
-2025-10-26 17:21:55,242 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ6~8 t 3749 2025-06
-2025-10-26 17:21:55,243 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:55,394 [INFO] Response status: 200
-2025-10-26 17:21:55,394 [INFO] ✅ Link is active
-2025-10-26 17:21:55,394 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ10~12 t 3776 2025-06
-2025-10-26 17:21:55,394 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:55,543 [INFO] Response status: 200
-2025-10-26 17:21:55,543 [INFO] ✅ Link is active
-2025-10-26 17:21:55,544 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ8~10 t 3677 2025-06
-2025-10-26 17:21:55,544 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:55,694 [INFO] Response status: 200
-2025-10-26 17:21:55,694 [INFO] ✅ Link is active
-2025-10-26 17:21:55,695 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ12~14 t 3650 2025-06
-2025-10-26 17:21:55,695 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:55,842 [INFO] Response status: 200
-2025-10-26 17:21:55,843 [INFO] ✅ Link is active
-2025-10-26 17:21:55,843 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ16~18 t 3538 2025-06
-2025-10-26 17:21:55,843 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:55,990 [INFO] Response status: 200
-2025-10-26 17:21:55,990 [INFO] ✅ Link is active
-2025-10-26 17:21:55,990 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ20~25 t 3497 2025-06
-2025-10-26 17:21:55,990 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:56,137 [INFO] Response status: 200
-2025-10-26 17:21:56,138 [INFO] ✅ Link is active
-2025-10-26 17:21:56,138 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ28~32 t 3609 2025-06
-2025-10-26 17:21:56,138 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:56,286 [INFO] Response status: 200
-2025-10-26 17:21:56,286 [INFO] ✅ Link is active
-2025-10-26 17:21:56,286 [INFO] ✅ request values / 热轧带肋钢筋 HRB500 Φ8~10 t 3966 2025-06
-2025-10-26 17:21:56,286 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:56,435 [INFO] Response status: 200
-2025-10-26 17:21:56,436 [INFO] 县区: {'value': 'LTXU', 'label': '蓝田县'} 日期: {'name': '2025年06月造价信息表', 'date': '2025-06'}
-2025-10-26 17:21:56,961 [INFO] [['1', '/', '热轧光圆钢筋', 'HPB300 Φ6~8', 't', '3736'], ['2', '/', '热轧光圆钢筋', 'HPB300 Φ10~12', 't', '3752'], ['3', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ6~8', 't', '3756'], ['4', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ10~12', 't', '3740'], ['5', '/', '热轧带肋钢筋', 'HRB400 Φ8~10', 't', '3661'], ['6', '/', '热轧带肋钢筋', 'HRB400 Φ12~14', 't', '3638'], ['7', '/', '热轧带肋钢筋', 'HRB400 Φ16~18', 't', '3609'], ['8', '/', '热轧带肋钢筋', 'HRB400 Φ20~25', 't', '3597'], ['9', '/', '热轧带肋钢筋', 'HRB400 Φ28~32', 't', '3619'], ['10', '/', '热轧带肋钢筋', 'HRB500 Φ8~10', 't', '3860']]
-2025-10-26 17:21:56,963 [INFO] ✅ Link is active
-2025-10-26 17:21:56,963 [INFO] ✅ request values / 热轧光圆钢筋 HPB300 Φ6~8 t 3736 2025-06
-2025-10-26 17:21:56,963 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:57,128 [INFO] Response status: 200
-2025-10-26 17:21:57,128 [INFO] ✅ Link is active
-2025-10-26 17:21:57,129 [INFO] ✅ request values / 热轧光圆钢筋 HPB300 Φ10~12 t 3752 2025-06
-2025-10-26 17:21:57,129 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:57,283 [INFO] Response status: 200
-2025-10-26 17:21:57,283 [INFO] ✅ Link is active
-2025-10-26 17:21:57,283 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ6~8 t 3756 2025-06
-2025-10-26 17:21:57,283 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:57,430 [INFO] Response status: 200
-2025-10-26 17:21:57,431 [INFO] ✅ Link is active
-2025-10-26 17:21:57,431 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ10~12 t 3740 2025-06
-2025-10-26 17:21:57,431 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:57,581 [INFO] Response status: 200
-2025-10-26 17:21:57,582 [INFO] ✅ Link is active
-2025-10-26 17:21:57,582 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ8~10 t 3661 2025-06
-2025-10-26 17:21:57,582 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:57,730 [INFO] Response status: 200
-2025-10-26 17:21:57,731 [INFO] ✅ Link is active
-2025-10-26 17:21:57,731 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ12~14 t 3638 2025-06
-2025-10-26 17:21:57,731 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:57,871 [INFO] Response status: 200
-2025-10-26 17:21:57,872 [INFO] ✅ Link is active
-2025-10-26 17:21:57,872 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ16~18 t 3609 2025-06
-2025-10-26 17:21:57,872 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:58,018 [INFO] Response status: 200
-2025-10-26 17:21:58,019 [INFO] ✅ Link is active
-2025-10-26 17:21:58,019 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ20~25 t 3597 2025-06
-2025-10-26 17:21:58,019 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:58,168 [INFO] Response status: 200
-2025-10-26 17:21:58,168 [INFO] ✅ Link is active
-2025-10-26 17:21:58,168 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ28~32 t 3619 2025-06
-2025-10-26 17:21:58,168 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:58,420 [INFO] Response status: 200
-2025-10-26 17:21:58,420 [INFO] ✅ Link is active
-2025-10-26 17:21:58,420 [INFO] ✅ request values / 热轧带肋钢筋 HRB500 Φ8~10 t 3860 2025-06
-2025-10-26 17:21:58,420 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:58,566 [INFO] Response status: 200
-2025-10-26 17:21:58,566 [INFO] 县区: {'value': 'ZZXU', 'label': '周至县'} 日期: {'name': '2025年06月造价信息表', 'date': '2025-06'}
-2025-10-26 17:21:59,088 [INFO] [['1', '/', '热轧光圆钢筋', 'HPB300 Φ6~8', 't', '3703'], ['2', '/', '热轧光圆钢筋', 'HPB300 Φ10~12', 't', '3686'], ['3', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ6~8', 't', '3658'], ['4', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ10~12', 't', '3660'], ['5', '/', '热轧带肋钢筋', 'HRB400 Φ8~10', 't', '3677'], ['6', '/', '热轧带肋钢筋', 'HRB400 Φ12~14', 't', '3667'], ['7', '/', '热轧带肋钢筋', 'HRB400 Φ16~18', 't', '3546'], ['8', '/', '热轧带肋钢筋', 'HRB400 Φ20~25', 't', '3551'], ['9', '/', '热轧带肋钢筋', 'HRB400 Φ28~32', 't', '3616'], ['10', '/', '热轧带肋钢筋', 'HRB500 Φ8~10', 't', '3823']]
-2025-10-26 17:21:59,090 [INFO] ✅ Link is active
-2025-10-26 17:21:59,090 [INFO] ✅ request values / 热轧光圆钢筋 HPB300 Φ6~8 t 3703 2025-06
-2025-10-26 17:21:59,090 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:59,251 [INFO] Response status: 200
-2025-10-26 17:21:59,251 [INFO] ✅ Link is active
-2025-10-26 17:21:59,251 [INFO] ✅ request values / 热轧光圆钢筋 HPB300 Φ10~12 t 3686 2025-06
-2025-10-26 17:21:59,251 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:59,405 [INFO] Response status: 200
-2025-10-26 17:21:59,405 [INFO] ✅ Link is active
-2025-10-26 17:21:59,405 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ6~8 t 3658 2025-06
-2025-10-26 17:21:59,405 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:59,552 [INFO] Response status: 200
-2025-10-26 17:21:59,552 [INFO] ✅ Link is active
-2025-10-26 17:21:59,552 [INFO] ✅ request values / 热轧光圆钢筋（高线） HPB300 Φ10~12 t 3660 2025-06
-2025-10-26 17:21:59,552 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:59,706 [INFO] Response status: 200
-2025-10-26 17:21:59,706 [INFO] ✅ Link is active
-2025-10-26 17:21:59,706 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ8~10 t 3677 2025-06
-2025-10-26 17:21:59,706 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:21:59,859 [INFO] Response status: 200
-2025-10-26 17:21:59,859 [INFO] ✅ Link is active
-2025-10-26 17:21:59,859 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ12~14 t 3667 2025-06
-2025-10-26 17:21:59,859 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:22:00,019 [INFO] Response status: 200
-2025-10-26 17:22:00,020 [INFO] ✅ Link is active
-2025-10-26 17:22:00,020 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ16~18 t 3546 2025-06
-2025-10-26 17:22:00,020 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:22:00,177 [INFO] Response status: 200
-2025-10-26 17:22:00,177 [INFO] ✅ Link is active
-2025-10-26 17:22:00,177 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ20~25 t 3551 2025-06
-2025-10-26 17:22:00,177 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:22:00,335 [INFO] Response status: 200
-2025-10-26 17:22:00,335 [INFO] ✅ Link is active
-2025-10-26 17:22:00,335 [INFO] ✅ request values / 热轧带肋钢筋 HRB400 Φ28~32 t 3616 2025-06
-2025-10-26 17:22:00,335 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:22:00,496 [INFO] Response status: 200
-2025-10-26 17:22:00,496 [INFO] ✅ Link is active
-2025-10-26 17:22:00,496 [INFO] ✅ request values / 热轧带肋钢筋 HRB500 Φ8~10 t 3823 2025-06
-2025-10-26 17:22:00,496 [INFO] ➡️ Sending workflow request for module: gov_xian
-2025-10-26 17:22:00,651 [INFO] Response status: 200
+2025-10-26 20:17:38,209 [INFO] Testing module: gov_xian
+2025-10-26 20:17:38,209 [INFO] Module URL: https://zjj.xa.gov.cn/zxcx/gczj/indexHis.aspx?page=1&qdm=ZZXU
+2025-10-26 20:17:38,209 [INFO] Module URL validation passed ✅
+2025-10-26 20:17:54,565 [INFO] 县区: {'value': 'YLQU', 'label': '阎良区'} 日期: {'name': '2025年06月造价信息表', 'date': '2025-06'}
+2025-10-26 20:18:18,387 [INFO] [['1', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ6~8', 't', '3568'], ['2', '/', '热轧光圆钢筋（高线）', 'HPB300 Φ10~12', 't', '3552'], ['3', '/', '热轧钢筋', 'Q235 Φ6~8', 't', '3588'], ['4', '/', '热轧钢筋', 'Q235 Φ10~12', 't', '3580'], ['5', '/', '热轧带肋钢筋', 'HRB400E Φ8~10', 't', '3533'], ['6', '/', '热轧带肋钢筋', 'HRB400E Φ12~14', 't', '3503'], ['7', '/', '热轧带肋钢筋', 'HRB400E Φ16~18', 't', '3356'], ['8', '/', '热轧带肋钢筋', 'HRB400E Φ20~25', 't', '3328'], ['9', '/', '热轧带肋钢筋', 'HRB400E Φ28~32', 't', '3409'], ['10', '/', '热轧带肋钢筋', 'HRB500E Φ8~10', 't', '3721']]
+2025-10-26 20:18:18,389 [INFO] ✅ request page 1 values / 热轧光圆钢筋（高线） HPB300 Φ6~8 t 3568 2025-06 阎良区
+2025-10-26 20:18:18,389 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:18:23,639 [INFO] Response status: 200
+2025-10-26 20:18:23,641 [INFO] ✅ request page 1 values / 热轧光圆钢筋（高线） HPB300 Φ10~12 t 3552 2025-06 阎良区
+2025-10-26 20:18:23,641 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:18:27,657 [INFO] Response status: 200
+2025-10-26 20:18:27,657 [INFO] ✅ request page 1 values / 热轧钢筋 Q235 Φ6~8 t 3588 2025-06 阎良区
+2025-10-26 20:18:27,657 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:18:31,673 [INFO] Response status: 200
+2025-10-26 20:18:31,673 [INFO] ✅ request page 1 values / 热轧钢筋 Q235 Φ10~12 t 3580 2025-06 阎良区
+2025-10-26 20:18:31,673 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:18:35,650 [INFO] Response status: 200
+2025-10-26 20:18:35,650 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB400E Φ8~10 t 3533 2025-06 阎良区
+2025-10-26 20:18:35,651 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:18:39,548 [INFO] Response status: 200
+2025-10-26 20:18:39,548 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB400E Φ12~14 t 3503 2025-06 阎良区
+2025-10-26 20:18:39,549 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:18:43,470 [INFO] Response status: 200
+2025-10-26 20:18:43,470 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB400E Φ16~18 t 3356 2025-06 阎良区
+2025-10-26 20:18:43,470 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:18:47,639 [INFO] Response status: 200
+2025-10-26 20:18:47,639 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB400E Φ20~25 t 3328 2025-06 阎良区
+2025-10-26 20:18:47,639 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:18:51,555 [INFO] Response status: 200
+2025-10-26 20:18:51,555 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB400E Φ28~32 t 3409 2025-06 阎良区
+2025-10-26 20:18:51,555 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:18:55,403 [INFO] Response status: 200
+2025-10-26 20:18:55,404 [INFO] ✅ request page 1 values / 热轧带肋钢筋 HRB500E Φ8~10 t 3721 2025-06 阎良区
+2025-10-26 20:18:55,404 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:18:59,323 [INFO] Response status: 200
+2025-10-26 20:19:05,991 [INFO] [['11', '/', '热轧带肋钢筋', 'HRB500E Φ12~14', 't', '3672'], ['12', '/', '热轧带肋钢筋', 'HRB500E Φ16~18', 't', '3583'], ['13', '/', '热轧带肋钢筋', 'HRB500E Φ20~25', 't', '3555'], ['14', '/', '热轧带肋钢筋', 'HRB500E Φ28~32', 't', '3644'], ['15', '/', '预应力碳素钢丝', 'Φ3~6', 't', '5236'], ['16', '/', '预应力刻痕钢丝', 'Φ5~8', 't', '4766'], ['17', '/', '低碳冷拔钢丝', 'Φ3~6', 't', '4323'], ['18', '/', '钢绞线', '15.2mm', 't', '4567'], ['19', '/', '方钢', 'Q235', 't', '4273'], ['20', '/', '热轧扁钢', '30mm~100mm', 't', '3982']]
+2025-10-26 20:19:05,992 [INFO] ✅ request page 2 values / 热轧带肋钢筋 HRB500E Φ12~14 t 3672 2025-06 阎良区
+2025-10-26 20:19:05,992 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:09,971 [INFO] Response status: 200
+2025-10-26 20:19:09,971 [INFO] ✅ request page 2 values / 热轧带肋钢筋 HRB500E Φ16~18 t 3583 2025-06 阎良区
+2025-10-26 20:19:09,971 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:13,772 [INFO] Response status: 200
+2025-10-26 20:19:13,772 [INFO] ✅ request page 2 values / 热轧带肋钢筋 HRB500E Φ20~25 t 3555 2025-06 阎良区
+2025-10-26 20:19:13,772 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:17,556 [INFO] Response status: 200
+2025-10-26 20:19:17,557 [INFO] ✅ request page 2 values / 热轧带肋钢筋 HRB500E Φ28~32 t 3644 2025-06 阎良区
+2025-10-26 20:19:17,557 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:21,377 [INFO] Response status: 200
+2025-10-26 20:19:21,377 [INFO] ✅ request page 2 values / 预应力碳素钢丝 Φ3~6 t 5236 2025-06 阎良区
+2025-10-26 20:19:21,377 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:25,253 [INFO] Response status: 200
+2025-10-26 20:19:25,253 [INFO] ✅ request page 2 values / 预应力刻痕钢丝 Φ5~8 t 4766 2025-06 阎良区
+2025-10-26 20:19:25,254 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:29,113 [INFO] Response status: 200
+2025-10-26 20:19:29,113 [INFO] ✅ request page 2 values / 低碳冷拔钢丝 Φ3~6 t 4323 2025-06 阎良区
+2025-10-26 20:19:29,114 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:32,934 [INFO] Response status: 200
+2025-10-26 20:19:32,934 [INFO] ✅ request page 2 values / 钢绞线 15.2mm t 4567 2025-06 阎良区
+2025-10-26 20:19:32,935 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:36,657 [INFO] Response status: 200
+2025-10-26 20:19:36,658 [INFO] ✅ request page 2 values / 方钢 Q235 t 4273 2025-06 阎良区
+2025-10-26 20:19:36,658 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:40,307 [INFO] Response status: 200
+2025-10-26 20:19:40,307 [INFO] ✅ request page 2 values / 热轧扁钢 30mm~100mm t 3982 2025-06 阎良区
+2025-10-26 20:19:40,307 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:44,327 [INFO] Response status: 200
+2025-10-26 20:19:50,936 [INFO] [['21', '/', '热镀锌扁钢', '25mm~70mm', 't', '4595'], ['22', '/', '热轧工字钢', '10~40# Q235B', 't', '4095'], ['23', '/', '热轧槽钢', '8~12# Q235B', 't', '3792'], ['24', '/', '热轧槽钢', '14~20# Q235B', 't', '3819'], ['25', '/', '热轧槽钢', '22~36# Q235B', 't', '3857'], ['26', '/', '热镀锌槽钢', '8~10#', 't', '4648'], ['27', '/', '热轧等边角钢', '∠30×3mm~50×5mm Q235B', 't', '3867'], ['28', '/', '热轧等边角钢', '∠63×6mm~100×10mm Q235B', 't', '3864'], ['29', '/', '热轧不等边角钢', '∠30×20mm~63×40mm Q235B', 't', '3955'], ['30', '/', '热轧不等边角钢', '∠75×50mm~100×75mm Q235B', 't', '3968']]
+2025-10-26 20:19:50,938 [INFO] ✅ request page 3 values / 热镀锌扁钢 25mm~70mm t 4595 2025-06 阎良区
+2025-10-26 20:19:50,938 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:54,945 [INFO] Response status: 200
+2025-10-26 20:19:54,946 [INFO] ✅ request page 3 values / 热轧工字钢 10~40# Q235B t 4095 2025-06 阎良区
+2025-10-26 20:19:54,946 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:19:58,806 [INFO] Response status: 200
+2025-10-26 20:19:58,807 [INFO] ✅ request page 3 values / 热轧槽钢 8~12# Q235B t 3792 2025-06 阎良区
+2025-10-26 20:19:58,807 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:02,930 [INFO] Response status: 200
+2025-10-26 20:20:02,930 [INFO] ✅ request page 3 values / 热轧槽钢 14~20# Q235B t 3819 2025-06 阎良区
+2025-10-26 20:20:02,930 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:06,759 [INFO] Response status: 200
+2025-10-26 20:20:06,760 [INFO] ✅ request page 3 values / 热轧槽钢 22~36# Q235B t 3857 2025-06 阎良区
+2025-10-26 20:20:06,760 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:10,603 [INFO] Response status: 200
+2025-10-26 20:20:10,603 [INFO] ✅ request page 3 values / 热镀锌槽钢 8~10# t 4648 2025-06 阎良区
+2025-10-26 20:20:10,604 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:14,490 [INFO] Response status: 200
+2025-10-26 20:20:14,490 [INFO] ✅ request page 3 values / 热轧等边角钢 ∠30×3mm~50×5mm Q235B t 3867 2025-06 阎良区
+2025-10-26 20:20:14,490 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:18,702 [INFO] Response status: 200
+2025-10-26 20:20:18,702 [INFO] ✅ request page 3 values / 热轧等边角钢 ∠63×6mm~100×10mm Q235B t 3864 2025-06 阎良区
+2025-10-26 20:20:18,702 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:22,720 [INFO] Response status: 200
+2025-10-26 20:20:22,720 [INFO] ✅ request page 3 values / 热轧不等边角钢 ∠30×20mm~63×40mm Q235B t 3955 2025-06 阎良区
+2025-10-26 20:20:22,720 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:26,739 [INFO] Response status: 200
+2025-10-26 20:20:26,739 [INFO] ✅ request page 3 values / 热轧不等边角钢 ∠75×50mm~100×75mm Q235B t 3968 2025-06 阎良区
+2025-10-26 20:20:26,739 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:30,826 [INFO] Response status: 200
+2025-10-26 20:20:37,942 [INFO] [['31', '/', '热轧不等边角钢', '∠125×75mm以上 Q235B', 't', '3999'], ['32', '/', '热镀锌角钢', '∠30×3mm~50×5mm', 't', '4911'], ['33', '/', '热镀锌角钢', '∠63×6mm~100×10mm', 't', '4933'], ['34', '/', 'H型钢', 'H100~H250 Q235B', 't', '3614'], ['35', '/', 'H型钢', 'H300~H500 Q235B', 't', '3627'], ['36', '/', 'H型钢', 'H600以上 Q235B', 't', '3723'], ['37', '/', '热轧薄钢板', 'δ0.5~1.5 Q235B', 't', '3913'], ['38', '/', '热轧薄钢板', 'δ2~4 Q235B', 't', '3871'], ['39', '/', '热轧中厚钢板', 'δ5~20 Q235B', 't', '4168'], ['40', '/', '镀锌薄钢板', 'δ0.35~1.5', 't', '4887']]
+2025-10-26 20:20:37,943 [INFO] ✅ request page 4 values / 热轧不等边角钢 ∠125×75mm以上 Q235B t 3999 2025-06 阎良区
+2025-10-26 20:20:37,944 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:42,200 [INFO] Response status: 200
+2025-10-26 20:20:42,200 [INFO] ✅ request page 4 values / 热镀锌角钢 ∠30×3mm~50×5mm t 4911 2025-06 阎良区
+2025-10-26 20:20:42,201 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:45,956 [INFO] Response status: 200
+2025-10-26 20:20:45,957 [INFO] ✅ request page 4 values / 热镀锌角钢 ∠63×6mm~100×10mm t 4933 2025-06 阎良区
+2025-10-26 20:20:45,957 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:49,925 [INFO] Response status: 200
+2025-10-26 20:20:49,925 [INFO] ✅ request page 4 values / H型钢 H100~H250 Q235B t 3614 2025-06 阎良区
+2025-10-26 20:20:49,926 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:54,164 [INFO] Response status: 200
+2025-10-26 20:20:54,165 [INFO] ✅ request page 4 values / H型钢 H300~H500 Q235B t 3627 2025-06 阎良区
+2025-10-26 20:20:54,165 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:20:58,402 [INFO] Response status: 200
+2025-10-26 20:20:58,402 [INFO] ✅ request page 4 values / H型钢 H600以上 Q235B t 3723 2025-06 阎良区
+2025-10-26 20:20:58,402 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:02,430 [INFO] Response status: 200
+2025-10-26 20:21:02,430 [INFO] ✅ request page 4 values / 热轧薄钢板 δ0.5~1.5 Q235B t 3913 2025-06 阎良区
+2025-10-26 20:21:02,431 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:06,289 [INFO] Response status: 200
+2025-10-26 20:21:06,289 [INFO] ✅ request page 4 values / 热轧薄钢板 δ2~4 Q235B t 3871 2025-06 阎良区
+2025-10-26 20:21:06,289 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:10,160 [INFO] Response status: 200
+2025-10-26 20:21:10,160 [INFO] ✅ request page 4 values / 热轧中厚钢板 δ5~20 Q235B t 4168 2025-06 阎良区
+2025-10-26 20:21:10,160 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:14,255 [INFO] Response status: 200
+2025-10-26 20:21:14,255 [INFO] ✅ request page 4 values / 镀锌薄钢板 δ0.35~1.5 t 4887 2025-06 阎良区
+2025-10-26 20:21:14,256 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:18,253 [INFO] Response status: 200
+2025-10-26 20:21:27,191 [INFO] [['41', '/', '镀锌薄钢板', 'δ2~4', 't', '4865'], ['42', '/', '热轧花纹钢板', 'δ3~8 H-Q235B', 't', '3605'], ['43', '/', '不锈钢板', 'δ0.5~2 SS304', 't', '15966'], ['44', '/', '不锈钢板', 'δ2.5~5 SS304', 't', '16062'], ['45', '/', '不锈钢板', 'δ6~10 SS304', 't', '16172'], ['46', '/', '不锈钢板', 'δ12~16 SS304', 't', '16195'], ['47', '/', '不锈钢板', 'δ18~25 SS304', 't', '16428'], ['48', '/', '彩涂钢板（各色）', 'δ0.4', '㎡', '17'], ['49', '/', '彩涂钢板（各色）', 'δ0.5', '㎡', '20'], ['50', '/', '彩涂钢板（各色）', 'δ0.6', '㎡', '24']]
+2025-10-26 20:21:27,192 [INFO] ✅ request page 5 values / 镀锌薄钢板 δ2~4 t 4865 2025-06 阎良区
+2025-10-26 20:21:27,192 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:31,064 [INFO] Response status: 200
+2025-10-26 20:21:31,065 [INFO] ✅ request page 5 values / 热轧花纹钢板 δ3~8 H-Q235B t 3605 2025-06 阎良区
+2025-10-26 20:21:31,065 [INFO] ➡️ Sending workflow request for module: gov_xian
+2025-10-26 20:21:35,394 [INFO] Response status: 200
+2025-10-26 20:21:35,394 [INFO] ✅ request page 5 values / 不锈钢板 δ0.5~2 SS304 t 15966 2025-06 阎良区
+2025-10-26 20:21:35,394 [INFO] ➡️ Sending workflow request for module: gov_xian
