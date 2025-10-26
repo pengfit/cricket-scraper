@@ -37,14 +37,6 @@ client = DifyAPIClient(base_url="http://localhost", api_key=API_KEY, logger=logg
 #         })
 #     return result
 
-input_format = (''
-                '产品名称 -> "breed"'
-                '规格/型号 -> "spec"'
-                '单位 -> "unit"'
-                '价格 -> "price"'
-                '日期 -> "date"'
-                '区县 -> "county"'
-                '')
 
 def test_module_url():
     logger.info("Testing module: %s", GOV_MODULE)
@@ -69,6 +61,10 @@ def write_on_reading(area,issue,page_number):
                 'page': page_number}
     write_file(f"{REPORTS_DIR}/on_reading.json", progress)
 
+def reade_page_number():
+    on_reading = read_file(f"{REPORTS_DIR}/on_reading.json")
+    return on_reading['page']
+
 def browser_pages(page,area,issue):
     #区域
     page.select_option('#ddl_qdm', area['value'])
@@ -76,6 +72,10 @@ def browser_pages(page,area,issue):
     page.wait_for_selector('#textGK').click()
     page.locator("ul#gklist li", has_text=f"{issue['name']}").click()
     page.wait_for_selector('.ygsf_searchbox input[value="搜索"]').click()
+    page_number = reade_page_number()
+    page.fill('#rptPager_input', page_number)
+    page.locator("#rptPager_btn").click()
+
     while True:
         page_number = page.locator('#rptPager_input').input_value()
         write_on_reading(area, issue,page_number)
@@ -96,7 +96,6 @@ def browser_pages(page,area,issue):
                 values = f"{values},{issue['date']},{area['label']}";
                 logger.info("✅ request page %s values %s",page_number,values)
                 resp = client.run_workflow(values = values,
-                                           input_format = input_format,
                                            gov_module="gov_xian")
                 if resp:
                     logger.info("Response status: %s", resp.status_code)

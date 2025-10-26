@@ -19,8 +19,7 @@ class DifyAPIClient:
         payload = {
             "inputs": {
                 "values": values,
-                "module": gov_module,
-                "input_format":input_format
+                "module": gov_module
             },
             "user": gov_module
         }
