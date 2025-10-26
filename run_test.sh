@@ -8,7 +8,7 @@ echo "🔹 Running tests for: ${GOV_MODULE}"
 mkdir -p reports
 
 pytest "app/src/${GOV_MODULE}" \
-  --tracing=on \
+  --tracing=off \
   --html="reports/${GOV_MODULE}.html" \
   --self-contained-html
 
