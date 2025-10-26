@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 set -e
 
+GOV_MODULE=$1
+
 echo "🔹 Running tests for: ${GOV_MODULE}"
 
 mkdir -p reports
 
-pytest "src/${GOV_MODULE}" \
+pytest "app/src/${GOV_MODULE}" \
   --tracing=on \
   --html="reports/${GOV_MODULE}.html" \
   --self-contained-html
