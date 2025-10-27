@@ -13,7 +13,6 @@ class DifyAPIClient:
 
     def run_workflow(self,
                      values: str,
-                     input_format:str,
                      gov_module: str, timeout: int = 30):
         url = f"{self.base_url}/v1/workflows/run"
         payload = {
