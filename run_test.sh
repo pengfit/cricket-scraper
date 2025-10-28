@@ -6,7 +6,7 @@ REPORTS_DIR="app/src/"
 
 # Map module to URL (you can extend this map)
 if [ "$GOV_MODULE" = "gov_xian" ]; then
-    MODULE_URL="https://zjj.xa.gov.cn/zxcx/gczj/indexHis.aspx?page=1&qdm=ZZXU"
+    MODULE_URL="https://zjj.xa.gov.cn/zxcx/gczj/indexHis.aspx?page=1&qdm={}"
     API_KEY="app-P5fQM2owKecAABbKhp0qnwcA"
 else
     echo "Unknown GOV_MODULE: $GOV_MODULE"

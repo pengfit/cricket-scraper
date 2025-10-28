@@ -45,8 +45,6 @@ def test_module_url():
     logger.info("Module URL validation passed ✅")
 
 def test_read_pages(page):
-    page.goto(MODULE_URL,timeout = 60000)
-    assert "西安" in page.title()
     areas_list = read_file(f"{REPORTS_DIR}/areas.json")
     for area in areas_list:
         file_name = f"{REPORTS_DIR}/issue.json"
@@ -66,6 +64,9 @@ def reade_page_number():
     return on_reading['page']
 
 def browser_pages(page,area,issue):
+    url = MODULE_URL.format(area['value'])
+    logger.info("%s", url)
+    page.goto(url,timeout = 60000)
     #区域
     page.select_option('#ddl_qdm', area['value'])
     #日期
