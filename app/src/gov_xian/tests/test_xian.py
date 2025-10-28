@@ -65,7 +65,7 @@ def reade_page_number():
 
 def browser_pages(page,area,issue):
     url = MODULE_URL.format(area['value'])
-    logger.info("%s", url)
+    logger.info("✅ request %s", url)
     page.goto(url,timeout = 60000)
     #区域
     page.select_option('#ddl_qdm', area['value'])
