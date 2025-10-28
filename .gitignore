@@ -1,3 +1,3 @@
 .venv
 .idea
-*.log
+app/src/gov_xian/reports/running.log
