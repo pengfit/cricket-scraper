@@ -1,27 +1,22 @@
 #!/bin/bash
 
-GOV_MODULE=$1  # first argument, e.g., gov_xian
+# Ensure GOV_MODULE is passed as an argument
+GOV_MODULE=$1  # First argument, e.g., gov_xian
 
-REPORTS_DIR="app/src/"
-
-# Map module to URL (you can extend this map)
-if [ "$GOV_MODULE" = "gov_xian" ]; then
-    MODULE_URL="https://zjj.xa.gov.cn/zxcx/gczj/indexHis.aspx?page=1&qdm={}"
-    API_KEY="app-P5fQM2owKecAABbKhp0qnwcA"
-else
-    echo "Unknown GOV_MODULE: $GOV_MODULE"
+if [ -z "$GOV_MODULE" ]; then
+    echo "No GOV_MODULE specified."
     exit 1
 fi
 
-# Export environment variables so pytest can see them
-export GOV_MODULE
-export MODULE_URL
-export REPORTS_DIR
-export API_KEY
+# Ensure reports directory exists
+mkdir -p "app/src/$GOV_MODULE/reports"
 
 # Run pytest
+echo "Running tests for module: $GOV_MODULE"
+
 pytest "app/src/$GOV_MODULE" \
     --html="app/src/$GOV_MODULE/reports/$GOV_MODULE.html" \
     --self-contained-html
 
+# Log success message
 echo "✅ Report generated at reports/$GOV_MODULE.html"
