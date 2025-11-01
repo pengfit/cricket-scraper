@@ -8,8 +8,7 @@ def get_env_vars():
     """Read environment variables GOV_MODULE and MODULE_URL"""
     gov_module = os.getenv("GOV_MODULE")
     module_url = os.getenv("MODULE_URL")
-    reports_dir = os.getenv("REPORTS_DIR")
     api_key = os.getenv("API_KEY")
     if not gov_module or not module_url:
         raise EnvironmentError("GOV_MODULE or MODULE_URL is not set!")
-    return gov_module, module_url, f'{reports_dir}/{gov_module}/reports',api_key
+    return gov_module, module_url,api_key

@@ -8,12 +8,12 @@ echo "=========================="
 echo "Running with GOV_MODULE=$GOV_MODULE"
 echo "=========================="
 
-# Ensure reports directory exists
-mkdir -p "app/src/$GOV_MODULE/reports"
+# Ensure config directory exists
+mkdir -p "/reports"
 
 
 pytest "app/src/$GOV_MODULE" \
-    --html="app/src/$GOV_MODULE/reports/$GOV_MODULE.html" \
+    --html="/reports/$GOV_MODULE.html" \
     --self-contained-html
 
 # Log success message

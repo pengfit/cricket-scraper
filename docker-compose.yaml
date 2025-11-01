@@ -6,7 +6,7 @@ services:
     environment:
       - GOV_MODULE=gov_xian
       - MODULE_URL=https://zjj.xa.gov.cn/zxcx/gczj/indexHis.aspx?page=1&qdm=ZZXU
-      - REPORTS_DIR=app/src/
+      - REPORTS_DIR=config
       - API_KEY=app-P5fQM2owKecAABbKhp0qnwcA
     ipc: host
     networks:

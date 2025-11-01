@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/playwright/python:latest
 
-WORKDIR /app
+WORKDIR /
 
 # Copy requirements first
 COPY requirements.txt .

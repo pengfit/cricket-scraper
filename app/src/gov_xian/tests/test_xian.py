@@ -10,10 +10,12 @@ from app.src.utils.logger_util import setup_logger
 from app.src.utils.json_util import read_file, write_file
 
 # Get environment variables
-GOV_MODULE, MODULE_URL,REPORTS_DIR,API_KEY = get_env_vars()
+GOV_MODULE, MODULE_URL,API_KEY = get_env_vars()
+
+Config_DIR = f"app/src/{GOV_MODULE}/config"
 
 # Set up logger
-logger = setup_logger(log_file=f"{REPORTS_DIR}/running.log")
+logger = setup_logger(log_file="running.log")
 
 
 client = DifyAPIClient(base_url="http://localhost", api_key=API_KEY, logger=logger)
@@ -45,9 +47,9 @@ def test_module_url():
     logger.info("Module URL validation passed ✅")
 
 def test_read_pages(page):
-    areas_list = read_file(f"{REPORTS_DIR}/areas.json")
+    areas_list = read_file(f"{Config_DIR}/areas.json")
     for area in areas_list:
-        file_name = f"{REPORTS_DIR}/issue.json"
+        file_name = f"{Config_DIR}/issue.json"
         issues = read_file(file_name)
         for issue in issues:
             logger.info("县区: %s 日期: %s",area,issue)
@@ -57,10 +59,10 @@ def write_on_reading(area,issue,page_number):
     progress = {'issue': issue,
                 'area': area,
                 'page': page_number}
-    write_file(f"{REPORTS_DIR}/on_reading.json", progress)
+    write_file(f"{Config_DIR}/on_reading.json", progress)
 
 def reade_page_number():
-    on_reading = read_file(f"{REPORTS_DIR}/on_reading.json")
+    on_reading = read_file(f"{Config_DIR}/on_reading.json")
     return on_reading['page']
 
 def browser_pages(page,area,issue):
