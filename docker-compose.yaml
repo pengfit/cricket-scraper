@@ -8,6 +8,7 @@ services:
       - MODULE_URL=https://zjj.xa.gov.cn/zxcx/gczj/indexHis.aspx?page=1&qdm=ZZXU
       - REPORTS_DIR=config
       - API_KEY=app-P5fQM2owKecAABbKhp0qnwcA
+      - API_HOST=http://dify-api-1:5001
     ipc: host
     networks:
       - elastic

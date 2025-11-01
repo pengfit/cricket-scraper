@@ -10,7 +10,7 @@ from app.src.utils.logger_util import setup_logger
 from app.src.utils.json_util import read_file, write_file
 
 # Get environment variables
-GOV_MODULE, MODULE_URL,API_KEY = get_env_vars()
+GOV_MODULE, MODULE_URL,API_KEY,API_HOST = get_env_vars()
 
 Config_DIR = f"app/src/{GOV_MODULE}/config"
 
@@ -18,7 +18,7 @@ Config_DIR = f"app/src/{GOV_MODULE}/config"
 logger = setup_logger(log_file="running.log")
 
 
-client = DifyAPIClient(base_url="http://localhost", api_key=API_KEY, logger=logger)
+client = DifyAPIClient(base_url=API_HOST, api_key=API_KEY, logger=logger)
 
 # def test_read_issue(page):
 #     page.goto(MODULE_URL,timeout = 60000)
@@ -105,3 +105,6 @@ def browser_pages(page,area,issue):
         pre_next.click()
     client.close()
 
+
+if __name__ == "__main__":
+    test_read_pages()
