@@ -1,9 +1,4 @@
 # test_xian.py
-from bs4 import BeautifulSoup
-import json
-
-from twisted.spread.pb import respond
-
 from app.src.dify_api.api_http_tools import DifyAPIClient
 from app.src.utils.get_env import get_env_vars
 from app.src.utils.logger_util import setup_logger
