@@ -1,18 +1,16 @@
 #!/bin/bash
+set -e  # stop on error
 
-# Ensure GOV_MODULE is passed as an argument
-GOV_MODULE=$1  # First argument, e.g., gov_xian
+# If GOV_MODULE not set from env, take the first argument
+GOV_MODULE=${GOV_MODULE:-$1}
 
-if [ -z "$GOV_MODULE" ]; then
-    echo "No GOV_MODULE specified."
-    exit 1
-fi
+echo "=========================="
+echo "Running with GOV_MODULE=$GOV_MODULE"
+echo "=========================="
 
 # Ensure reports directory exists
 mkdir -p "app/src/$GOV_MODULE/reports"
 
-# Run pytest
-echo "Running tests for module: $GOV_MODULE"
 
 pytest "app/src/$GOV_MODULE" \
     --html="app/src/$GOV_MODULE/reports/$GOV_MODULE.html" \

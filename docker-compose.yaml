@@ -9,6 +9,8 @@ services:
       - REPORTS_DIR=app/src/
       - API_KEY=app-P5fQM2owKecAABbKhp0qnwcA
     ipc: host
+    networks:
+      - elastic
     volumes:
       - .:/app
     ports:

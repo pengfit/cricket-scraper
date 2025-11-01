@@ -2,15 +2,19 @@ FROM mcr.microsoft.com/playwright/python:latest
 
 WORKDIR /app
 
-# Copy requirements.txt first to leverage Docker cache
+# Copy requirements first
 COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the entire application
+# Copy the rest of the app
 COPY . .
 
-# Set environment variable dynamically via Compose
-ENV GOV_MODULE=${GOV_MODULE}
+# Optional: ensure playwright browsers are installed
+RUN playwright install --with-deps
 
+# Allow GOV_MODULE to be set dynamically at runtime
+ENV GOV_MODULE=""
+
+# Default command
 CMD ["bash", "run_test.sh"]
