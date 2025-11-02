@@ -1,25 +1,20 @@
 #!/bin/bash
-set -e
+set -e  # stop on error
+
+# If GOV_MODULE not set from env, take the first argument
+GOV_MODULE=${GOV_MODULE:-$1}
 
 echo "=========================="
 echo "Running with GOV_MODULE=$GOV_MODULE"
 echo "=========================="
 
-if [ -z "$GOV_MODULE" ]; then
-  echo "❌ Error: GOV_MODULE is not set."
-  echo "Usage example: docker run -e GOV_MODULE=gov_xian cricket-scraper-gov"
-  exit 1
-fi
+# Ensure config directory exists
+mkdir -p "/reports"
 
-MODULE_PATH="/app/src/${GOV_MODULE}"
 
-if [ ! -d "$MODULE_PATH" ]; then
-  echo "❌ Error: Directory $MODULE_PATH does not exist."
-  exit 1
-fi
+pytest "app/src/$GOV_MODULE" \
+    --html="/reports/$GOV_MODULE.html" \
+    --self-contained-html
 
-mkdir -p /reports
-
-pytest "$MODULE_PATH" --html="/reports/${GOV_MODULE}.html"
-
-echo "✅ Test report generated at /reports/${GOV_MODULE}.html"
+# Log success message
+echo "✅ Report generated at reports/$GOV_MODULE.html"

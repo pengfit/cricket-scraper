@@ -4,4 +4,5 @@ pytest-html
 playwright
 beautifulsoup4
 pytest-env
+twisted
 dotenv
